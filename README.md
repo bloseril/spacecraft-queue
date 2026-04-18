@@ -1,33 +1,30 @@
-# spacecraft-queue
 # 🚀 Spacecraft Queue Management System
+This project implements a **FIFO (First-In-First-Out) Queue data structure** in C++ to manage spacecraft traffic at space stations.
 
-## 📌 Proje Açıklaması
-Bu proje, uzay istasyonlarına gelen ve ayrılan uzay araçlarını yönetmek için **FIFO (First-In-First-Out)** mantığıyla çalışan bir kuyruk (Queue) veri yapısının C++ ile implementasyonudur.
-
-Sistem, uzay araçlarının istasyona geliş ve ayrılış sırasını yönetir ve farklı istasyonların kullanım yoğunluğunu karşılaştırır.
+The system simulates the arrival and departure of spacecrafts and compares the usage of multiple space stations based on processed traffic.
 
 ---
 
-## ⚙️ Özellikler
-- FIFO (Queue) veri yapısı implementasyonu
-- Dinamik bellek kullanımı (dynamic array)
-- `enqueue` (ekleme) ve `dequeue` (çıkarma) işlemleri
-- Kuyruğun dolu/boş kontrolü (`isFull`, `isEmpty`)
-- Aktif uzay araçlarının listelenmesi (`display`)
-- Birden fazla uzay istasyonu oluşturabilme
-- İstasyon kullanım yoğunluğu karşılaştırması
+## Features
+- FIFO Queue implementation
+- Dynamic memory management using arrays
+- Enqueue (add) and dequeue (remove) operations
+- Queue state checks (`isFull`, `isEmpty`)
+- Display current spacecrafts in the queue
+- Support for multiple space stations
+- Comparison of station usage based on served spacecraft count
 
 ---
 
-## 🧠 Kullanılan Konseptler
-- Veri Yapıları (Queue - FIFO)
-- Nesne Yönelimli Programlama (OOP)
-- Dinamik bellek yönetimi
-- Sınıf tasarımı (Class Design)
+## Concepts Used
+- Data Structures (Queue - FIFO)
+- Object-Oriented Programming (OOP)
+- Dynamic Memory Allocation
+- Class Design
 
 ---
 
-## 🏗️ Sınıf Yapısı
+## Class Structure
 
 ```cpp
 class Queue {
